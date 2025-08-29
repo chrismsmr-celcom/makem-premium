@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-16" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>MAKEM — Groupe Industriel</title>
   <meta name="description" content="MAKEM est un groupe industriel diversifié basé à Kinshasa : alimentation, énergie, construction et mines." />
@@ -545,7 +545,7 @@ Chez MAKEM, nous ne construisons pas seulement une entreprise : nous construison
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Menu mobile
-    const btn = document.getElementById('btnMenu');
+    <button id="btnMenu" class="lg:hidden p-2 rounded-md border border-gray-400/40 text-white" aria-label="Ouvrir le menu">;
     const drawer = document.getElementById('drawer');
     const closeBtn = document.getElementById('btnClose');
     btn?.addEventListener('click', () => drawer.classList.remove('hidden'));
